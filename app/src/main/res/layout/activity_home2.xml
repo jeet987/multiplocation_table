@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HomeActivity2">
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3650990573229785/3277518075">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="0dp"
+
+        android:background="@color/cardview_shadow_end_color"
+        android:text="   Tables 1 to 100"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/OneToTenbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="1 to 10 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ElevenToTwentybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="130dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="11 to 20 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/TwentyoneToThirtybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="190dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="21 to 30 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/ThirtyoneTofourtybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="31 to 40 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+    />
+
+    <Button
+        android:id="@+id/FourtyoneToFiftybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="310dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="41 to 50 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+       />
+
+    <Button
+        android:id="@+id/FiftyoneToSixtyybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="370dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="51 to 60 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/SixtyOneToSeventybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="430dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="61 to 70 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+    />
+
+    <Button
+        android:id="@+id/SeventyOneToEightybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="490dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="71 to 80 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/EightyOneToNintybtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="550dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="81 to 90 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/NintyOneToHundredbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="610dp"
+
+        android:background="@drawable/rounde_corner"
+        android:text="91 to 100 Tables"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+     />
+
+    <Button
+        android:id="@+id/ShareButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="40dp"
+
+        android:text="$"
+        android:textStyle="bold"
+        android:background="@drawable/rounde_corner"
+        android:textSize="40dp"/>
+
+
+
+</RelativeLayout>

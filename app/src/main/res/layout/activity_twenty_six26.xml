@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwentySix26"
+    android:background="@drawable/bg">
+
+    <!-- <com.google.android.gms.ads.AdView
+         android:id="@+id/adView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         app:adSize="BANNER"
+         app:adUnitId="ca-app-pub-3650990573229785/3277518075"
+         tools:layout_editor_absoluteX="55dp"
+         tools:layout_editor_absoluteY="680dp">
+     </com.google.android.gms.ads.AdView>
+     -->
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="550dp"
+         android:src="@drawable/twentysix26"
+         android:contentDescription="TODO" />
+
+
+     <Button
+         android:id="@+id/Next"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:text="Next"
+         android:background="@drawable/rounde_corner"
+         android:layout_marginTop="420dp"
+         android:layout_marginStart="300dp"
+         />
+
+     <Button
+         android:id="@+id/Prev"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:text="Prev"
+         android:background="@drawable/rounde_corner"
+         android:layout_marginTop="480dp"
+         android:layout_marginStart="300dp"
+         />
+
+     <Button
+         android:id="@+id/Home"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:text="Home"
+         android:background="@drawable/rounde_corner"
+         android:layout_marginTop="540dp"
+         android:layout_marginStart="300dp"
+         />
+
+
+ </RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Tables.test1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+ <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tables"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+      <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3650990573229785~7216763087"/>
+
+        <activity
+            android:name=".HomeActivity2"
+            android:label="@string/title_activity_home2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+
+        <activity android:name=".Hundred100" />
+        <activity android:name=".NintyNine99" />
+        <activity android:name=".NintyEight98" />
+        <activity android:name=".NintySeven97" />
+        <activity android:name=".NintySix96" />
+        <activity android:name=".NintyFive95" />
+        <activity android:name=".NintyFour94" />
+        <activity android:name=".NintyThree93" />
+        <activity android:name=".NintyTwo92" />
+        <activity android:name=".NintyOne91" />
+        <activity android:name=".Ninty90" />
+        <activity android:name=".EightyNine89" />
+        <activity android:name=".EightyEight88" />
+        <activity android:name=".EightySeven87" />
+        <activity android:name=".EightySix86" />
+        <activity android:name=".EightyFive85" />
+        <activity android:name=".EightyFour84" />
+        <activity android:name=".EightyThree83" />
+        <activity android:name=".EightyTwo82" />
+        <activity android:name=".EightyOne81" />
+        <activity android:name=".Eighty80" />
+        <activity android:name=".SeventyNine79" />
+        <activity android:name=".SeventyEight78" />
+        <activity android:name=".SeventySeven77" />
+        <activity android:name=".SeventySix76" />
+        <activity android:name=".SeventyFive75" />
+        <activity android:name=".SeventyFour74" />
+        <activity android:name=".SeventyThree73" />
+        <activity android:name=".SeventyTwo72" />
+        <activity android:name=".SeventyOne71" />
+        <activity android:name=".Seventy70" />
+        <activity android:name=".SixtyNine69" />
+        <activity android:name=".SixtyEight68" />
+        <activity android:name=".SixtySeven67" />
+        <activity android:name=".SixtySix66" />
+        <activity android:name=".SixtyFive65" />
+        <activity android:name=".SixtyFour64" />
+        <activity android:name=".SixtyThree63" />
+        <activity android:name=".SixtyTwo62" />
+        <activity android:name=".SixtyOne61" />
+        <activity android:name=".Sixty60" />
+        <activity android:name=".FiftyNine59" />
+        <activity android:name=".FiftyEight58" />
+        <activity android:name=".FiftySeven57" />
+        <activity android:name=".FiftySix56" />
+        <activity android:name=".FiftyFive55" />
+        <activity android:name=".FiftyFour54" />
+        <activity android:name=".FiftyThree53" />
+        <activity android:name=".FiftyTwo52" />
+        <activity android:name=".FiftyOne51" />
+        <activity android:name=".Fifty50" />
+        <activity android:name=".FourtyNine49" />
+        <activity android:name=".FourtyEight48" />
+        <activity android:name=".FourtySeven47" />
+        <activity android:name=".FourtySix46" />
+        <activity android:name=".FourtyFive45" />
+        <activity android:name=".FourtyFour44" />
+        <activity android:name=".FourtyThree43" />
+        <activity android:name=".FourtyTwo42" />
+        <activity android:name=".FortyOne41" />
+        <activity android:name=".Fourty40" />
+        <activity android:name=".ThirtyNine39" />
+        <activity android:name=".ThirtyEight38" />
+        <activity android:name=".ThirtySeven37" />
+        <activity android:name=".ThirtySix36" />
+        <activity android:name=".ThirtyFive35" />
+        <activity android:name=".ThirtyFour34" />
+        <activity android:name=".ThirtyThree33" />
+        <activity android:name=".ThirtyTwo32" />
+        <activity android:name=".ThirtyOne31" />
+        <activity android:name=".Thirty30" />
+        <activity android:name=".TwentyNine29" />
+        <activity android:name=".TwentyEight28" />
+        <activity android:name=".TwentySeven27" />
+        <activity android:name=".TwentySix26" />
+        <activity android:name=".TwentyFive25" />
+        <activity android:name=".TwentyFour24" />
+        <activity android:name=".TwentyThree23" />
+        <activity android:name=".TwentyTwo22" />
+        <activity android:name=".TwentyOne21" />
+        <activity android:name=".Twenty20" />
+        <activity android:name=".Ninteen19" />
+        <activity android:name=".Eighteen18" />
+        <activity android:name=".Seventeen17" />
+        <activity android:name=".Sixteen16" />
+        <activity android:name=".Fifteen15" />
+        <activity android:name=".Fourteen14" />
+        <activity android:name=".Thirteen13" />
+        <activity android:name=".Twelve12" />
+        <activity android:name=".Eleven11" />
+        <activity android:name=".Ten10" />
+        <activity android:name=".Nine9" />
+        <activity android:name=".Eight8" />
+        <activity android:name=".Seven7" />
+        <activity android:name=".Six6" />
+        <activity android:name=".Five5" />
+        <activity android:name=".Four" />
+        <activity android:name=".Three" />
+        <activity android:name=".Two" />
+        <activity android:name=".OneToTen" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
